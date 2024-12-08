@@ -7,13 +7,11 @@ public class SetObjectPosition : MonoBehaviour
     public float y;
     public float z;
 
-        private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "ButtonReset") {
+        if (other.name == "KeyObject") {
             targetObject.transform.position = new Vector3(x, y, z);
-        }
-        if (other.name == "ButtonFinish") {
-            targetObject.transform.position = new Vector3(0, 50, 0);
+            targetObject.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
     }
 }

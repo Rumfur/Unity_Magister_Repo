@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/VR_MENU.unity
+    guid: e1f93ee94180109409957f1bec4e5903
   - enabled: 1
     path: Assets/Scenes/VR_DRIVING.unity
     guid: aec8f6dd8b342b14d892afc6c9cc22fc
